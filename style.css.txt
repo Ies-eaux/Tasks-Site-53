@@ -1,0 +1,112 @@
+body {
+  background-color: #e8dfca;
+  font-family: 'Courier New', monospace;
+  color: #222;
+  margin: 0;
+  padding: 30px;
+}
+
+.document {
+  background: #f8f3e9;
+  border: 1px solid #b8a97b;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  max-width: 800px;
+  margin: auto;
+  padding: 30px 40px;
+  position: relative;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #000;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 80px;
+  margin-right: 20px;
+}
+
+.header-text h1 {
+  font-size: 22px;
+  margin: 0;
+}
+
+.header-text h2 {
+  font-size: 16px;
+  margin: 5px 0;
+  color: #555;
+}
+
+#mission-section h3 {
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 10px;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  margin: 8px 0;
+}
+
+.task input[type="checkbox"] {
+  margin-right: 10px;
+  accent-color: #333;
+}
+
+.task.completed span {
+  text-decoration: line-through;
+  color: #666;
+}
+
+.category {
+  font-weight: bold;
+  margin-top: 20px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #333;
+  width: fit-content;
+}
+
+footer {
+  border-top: 1px solid #000;
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 10px;
+  font-size: 12px;
+  position: relative;
+}
+
+.stamp {
+  position: absolute;
+  right: 40px;
+  bottom: 25px;
+  width: 160px;
+  height: 80px;
+  border: 3px solid #b33;
+  border-radius: 50%;
+  transform: rotate(-12deg);
+  color: #b33;
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 11px;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: transparent;
+}
+
+.stamp-text {
+  transform: rotate(10deg);
+}
+
+.date {
+  text-align: center;
+  font-style: italic;
+  color: #444;
+}
