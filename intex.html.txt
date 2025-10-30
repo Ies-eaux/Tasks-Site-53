@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Feuille de Mission - Fondation SCP</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="document">
+    <header>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/SCP_Foundation_%28emblem%29.svg" alt="SCP Logo" class="logo" />
+      <div class="header-text">
+        <h1>FONDATION SCP</h1>
+        <h2>Ordre de mission – Sécurité interne</h2>
+        <p><strong>Agent :</strong> CMDT Nolans</p>
+        <p><strong>Classification :</strong> Niveau 3 – Confidentiel</p>
+        <p><strong>Site :</strong> 53</p>
+      </div>
+    </header>
+
+    <section id="mission-section">
+      <h3>MISSIONS DU JOUR</h3>
+      <p class="date" id="date-display"></p>
+      <div id="task-list"></div>
+    </section>
+
+    <footer>
+      <p>Document généré automatiquement par le Système de Planification SCP.</p>
+      <div class="stamp">
+        <span class="stamp-text">AUTHORIZED BY SITE-53 COMMAND</span>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
