@@ -1,0 +1,8 @@
+const missions = {
+  easy: [
+"niquer ta grand mere",
+"niquer ta race",
+],
+  medium: [],
+  hard: []
+};
